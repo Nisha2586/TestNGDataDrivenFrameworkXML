@@ -1,0 +1,21 @@
+<suite name="Regression">
+	<test name="AddContactTest">
+		<parameter name="UserName" value="demo@techfios.com" />
+		<parameter name="Password" value="abc123" />
+		<parameter name="FullName" value="Regression Test" />
+		<parameter name="Company" value="ATT" />
+		<parameter name="Email" value="Nisha@ATT.com" />
+		<parameter name="Phone" value="123232" />
+		<parameter name="Address" value="Techfios" />
+		<parameter name="City" value="chaurlotte" />
+		<parameter name="State" value="TX" />
+		<parameter name="Zip" value="342343" />
+		<parameter name="Country" value="United States" />
+		<classes>
+			<!--<class name="test.LoginTest" />-->
+			<class name="test.AddContactTest" />
+			<class name="test.ListCustomerTest" />
+
+		</classes>
+	</test>
+</suite>

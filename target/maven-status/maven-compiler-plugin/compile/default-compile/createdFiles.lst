@@ -1,0 +1,7 @@
+page\ListCustomerPage.class
+page\ListCustomerAddContactPage.class
+util\BrowserFactory.class
+page\AddContactPage.class
+page\BasePage.class
+page\DashBoardPage.class
+page\LoginPage.class

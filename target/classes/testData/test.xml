@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+  <test thread-count="5" name="AddContactTest">
+    <parameter name="Zip" value="342343"/>
+    <parameter name="Company" value="ATT"/>
+    <parameter name="UserName" value="demo@techfios.com"/>
+    <parameter name="Email" value="Nisha@ATT.com"/>
+    <parameter name="Address" value="Techfios"/>
+    <parameter name="Phone" value="123232"/>
+    <parameter name="State" value="TX"/>
+    <parameter name="FullName" value="Regression Test"/>
+    <parameter name="Country" value="United States"/>
+    <parameter name="City" value="chaurlotte"/>
+    <parameter name="Password" value="abc123"/>
+    <classes>
+      <class name="test.AddContactTest"/>
+      <class name="test.ListCustomerTest"/>
+    </classes>
+  </test> <!-- AddContactTest -->
+</suite> <!-- Regression -->
